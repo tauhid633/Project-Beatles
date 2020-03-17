@@ -1,0 +1,912 @@
+/*=================================
+        common css part start
+=================================*/
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+/*=================================
+        common css part end
+==================================*/
+
+/*Header css part start*/
+.Header-full {
+    height: 100%;
+    background: #0872b9;
+    height: 32px;
+}
+
+.header-text {
+    height: 100%;
+    width: 200px;
+    float: left;
+}
+
+.social-icon {
+    width: 760px;
+    float: left;
+    text-align: right;
+}
+
+.header-text p {
+    color: #e7e7e7;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 32px;
+}
+
+.social-icon a {
+    color: #e7e7e7;
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 19px;
+}
+
+.social-icon a:hover {
+    color: #353535;
+}
+
+/*==============================
+        Header css part end
+==============================*/
+
+/*==============================
+        Menu css part start
+==============================*/
+.menu-full {
+    padding: 20px 0;
+}
+
+.logo {
+    width: 160px;
+    float: left;
+}
+
+.main_menu {
+    width: 800px;
+    float: left;
+}
+
+.main_menu ul {
+    float: right;
+}
+
+.main_menu ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.main_menu ul li a {
+    color: #353535;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Myriad Pro';
+    line-height: 32px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.main_menu ul li a:hover {
+    color: #0872b9;
+}
+
+/*==============================
+        Menu css part end
+==============================*/
+
+/*==============================
+    Banner css part start
+==============================*/
+.banner-full {
+    background: url(../Images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-full::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.banner-text {
+    width: 448px;
+    float: right;
+    text-align: right;
+}
+
+.banner-text h3 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    margin-bottom: -11px;
+}
+
+.banner-text h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oswald';
+    ;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.banner-text p {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+
+.banner-text a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    ;
+    line-height: 24px;
+    padding: 0 20px;
+    margin-left: 15px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.banner-text a:hover {
+    background: #0872b9;
+    border: 1px solid #0872b9;
+}
+
+/*==============================
+        Banner css part end
+==============================*/
+
+/*==============================
+        About css part start
+==============================*/
+.about-full {
+    padding: 54px 0;
+    text-align: center;
+}
+
+.about-head {
+    display: inline-block;
+    position: relative;
+}
+
+.about-head img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.about-head h3 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.about-img {
+    float: left;
+    width: 380px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-text {
+    width: 580px;
+    float: left;
+}
+
+.about-inner {
+    padding-top: 40px;
+}
+
+.about-inner .about-text {
+    padding-top: 36px;
+    padding-bottom: -3px;
+    text-align: left;
+}
+
+.about-inner .about-text p {
+    color: #555555;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 24px;
+    padding-left: 21px;
+}
+
+.about-inner .about-text p span {
+    display: block;
+    padding-top: 23px;
+}
+
+/*==============================
+        About css part end
+==============================*/
+
+/*================================
+        Service css part start
+================================*/
+.service-full {
+    padding-bottom: 54px;
+    text-align: center;
+}
+
+.Service-head {
+    position: relative;
+    display: inline-block;
+}
+
+.Service-head h3 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.Service-head img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.service-item {
+    width: 300px;
+    float: left;
+    background: #f1f1f1;
+    padding: 43px 0 15px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.service-item .circle {
+    position: absolute;
+    top: -39px;
+    left: 50%;
+    height: 70px;
+    width: 70px;
+    background: #f1f1f1f1;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 73px;
+    transform: translate(-50%);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.service-inner {
+    padding-top: 68px;
+    margin-bottom: -6px;
+}
+
+.service-item h4 {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.service-item p {
+    color: #555555;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 24px;
+    padding: 0 20px;
+}
+
+.service-item .circle::after {
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    content: '';
+    border: 1px solid #ddd;
+    height: 74px;
+    width: 74px;
+    border-radius: 50%;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.service-item .circle::before {
+    position: absolute;
+    left: -6px;
+    top: -6px;
+    content: '';
+    border: 3px solid #fff;
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+}
+
+.service-item:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.service-item:hover .circle::after {
+    border: 1px solid #5bc5ee;
+}
+
+.service-item:hover .circle {
+    background: #5bc5ee;
+}
+
+.margin-left {
+    margin-left: 0;
+}
+
+/*================================
+        Service css part end
+================================*/
+
+
+/*=====================================
+        portfolio css part start
+=====================================*/
+.portfolio-full {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.portfolio-head {
+    position: relative;
+    display: inline-block;
+}
+
+.portfolio-head img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.portfolio-head h3 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+.portfolio-inner ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-inner ul li {
+    width: 23.5%;
+}
+
+.portfolio-inner ul li .img:hover .overly {
+    opacity: 1;
+}
+
+.portfolio-inner ul li .img {
+    position: relative;
+    margin-top: 20px;
+}
+
+.portfolio-inner ul li .img .overly i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #5bc5f4;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio-inner ul li .img .overly {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.portfolio-inner ul li img {
+    width: 100%;
+}
+
+/*=====================================
+        portfolio css part end
+=====================================*/
+
+
+/*=====================================
+        team css part start
+=====================================*/
+
+.team-full {
+    margin-top: -5px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.team-head {
+    position: relative;
+    display: inline-block;
+}
+
+.team-head img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.team-head h2 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    line-height: 24px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.team-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.team-inner .member {
+    width: 23.5%;
+}
+
+.team-inner .member .member-img img {
+    width: 100%;
+}
+
+.team-inner .member .member-img {
+    position: relative;
+}
+
+.team-inner .member .Overly {
+
+    width: 80px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.team-inner .member .Overly .icon i {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 15px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.team-inner .member .Overly .icon .mb {
+    margin-bottom: 0;
+}
+
+.team-inner .member .Overly .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team-inner .member-text {
+    text-align: center;
+}
+
+.team-inner .member-text h4 {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.team-inner .member-text p {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    line-height: 24px;
+}
+
+.team-inner .member:hover .Overly {
+    opacity: 1;
+}
+
+.team-inner .member .member-img:hover {
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.team-inner .member:hover .member-text h4 {
+    color: #5bc5f4;
+}
+
+.team-inner .member .Overly .icon i:hover {
+    background: #5bc5f4;
+    border: 1px solid #5bc5f4;
+}
+
+/*=====================================
+        team css part end
+=====================================*/
+
+
+/*=====================================
+        common css part start
+=====================================*/
+.testimoni-full {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.testimoni-head {
+    position: relative;
+    display: inline-block;
+}
+
+.testimoni-head img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.testimoni-head h2 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.testimoni-inner {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial {
+    width: 49%;
+}
+
+.testimonial .testimoni-img {
+    margin-bottom: 36px;
+}
+
+.testimonial .testimoni-text::after {
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    content: '';
+    background: #f1f1f1;
+    height: 40px;
+    width: 40px;
+    transform: translate(-50%, 194%) rotate(45deg);
+    z-index: -1;
+}
+
+.testimonial .testimoni-text {
+    background: #f1f1f1;
+    padding: 20px 22px;
+    text-align: center;
+    position: relative;
+
+}
+
+.testimonial .testimoni-text span {
+    color: #5bc5f4;
+    font-size: 13px;
+}
+
+.testimonial .testimoni-text h3 {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Oswald';
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.testimonial .testimoni-text h4 {
+    color: #555555;
+    font-size: 13px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.testimonial .testimoni-text p {
+    color: #555555;
+    font-size: 13px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+/*=====================================
+        common css part end
+=====================================*/
+
+/*=====================================
+        Contact css part start
+=====================================*/
+.contact-full {
+    background: #353535;
+    padding: 20px 0 4px;
+}
+
+.descrip {
+    width: 220px;
+    float: left;
+    text-align: left;
+    padding-right: 23px;
+}
+
+.descrip p {
+    padding-top: 23px;
+    color: #f1f1f1;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 24px;
+    text-align: left;
+}
+
+.descrip p span {
+    display: block;
+    padding-top: 24px;
+}
+
+.contact-us {
+    width: 222px;
+    float: left;
+    padding-right: 23px;
+}
+
+.contact-head h4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    line-height: 24px;
+    padding: 9px 0 30px;
+}
+
+.contact-inner {
+    float: left;
+    text-align: left;
+}
+
+.contact-inner-text {
+    float: left;
+    margin-bottom: 5px;
+}
+
+.contact-inner-text-icon {
+    float: left;
+    padding-top: 7px;
+}
+
+.contact-inner-text i {
+    color: #ffffff;
+    font-size: 13px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: #5bc5f4;
+    text-align: center;
+    line-height: 35px;
+}
+
+.nbr h5 {
+    float: left;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 24px;
+    padding-left: 10px;
+}
+
+.important-link {
+    width: 148px;
+    padding-right: 23px;
+    float: left;
+}
+
+.important-link-head h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    line-height: 24px;
+    padding: 9px 0 30px;
+}
+
+.links .link-left {
+    float: left;
+}
+
+.links .link-left ul li {
+    margin-bottom: 11px;
+}
+
+.links .link-right ul li {
+    margin-bottom: 11px;
+}
+
+.links .link-left ul li a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 24px;
+}
+
+.links .link-right ul li a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 24px;
+    margin-left: 23px;
+}
+
+.links .link-left ul li a:hover {
+    color: #5bc5f4;
+}
+
+.links .link-right ul li a:hover {
+    color: #5bc5f4;
+}
+
+.flickr-photo {
+    width: 300px;
+    float: right;
+}
+
+.flickr-photo .flickr-photo-head h4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    line-height: 24px;
+    padding: 9px 0 30px;
+}
+
+.flickr-photo-inner ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flickr-photo-inner ul li {
+    width: 30%;
+}
+
+.flickr-photo-inner ul li img {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/*=====================================
+        Contact css part end
+=====================================*/
+
+
+
+/*=====================================
+        footer css part start
+=====================================*/
+.footer-full {
+    background: #555555;
+    padding: 9px 0 12px;
+    text-align: center;
+}
+
+.copy {
+    color: #f1f1f1;
+    font-size: 13px;
+    font-weight: 400px;
+    font-family: 'Open Sans';
+    line-height: 24px;
+}
+
+.copy a {
+    color: #5bc5f4;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    line-height: 24px;
+}
+
+/*=====================================
+        footer css part end
+=====================================*/
